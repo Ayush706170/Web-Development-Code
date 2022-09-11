@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<style>
+    .ayushsingh{
+        color: rgb(23, 74, 228);
+    }
+    .ayushkumar{
+        color: rgb(255, 3, 3);
+    }
+    .aksingh{
+        color: rgb(9, 148, 70);
+    }
+</style>
+<body>
+    <h class="ayushsingh">this is form toturial</h2>
+    <form action="backend.php">
+        <label for="name"></label>
+        <div>
+            Name:<input type="text" name="myname" id="name" >
+        </div>
+        <br>
+        <div>
+            Role:<input type="text" name="myrole">
+        </div>
+        <br>
+        <div>
+            Email:<input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="mybonus">
+        </div>
+        <br>
+        <div>
+            Are You Eligible<input type="checkbox" name="myeligiblity">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> FeMale<input type="radio" name="myGender"> Other<input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write About Yourself <br><textarea name="mytext" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <details>
+            <summary>
+                you have to choose which one is the best sister
+            </summary>
+            what is the education qualification of all sister and what is the Nameof our classmate and this is the main prefrance we have to 
+        </details>
+        <br>
+        <div>
+            <label for="sister">sister</label>
+            <select name="My Sister" id="sister">
+            <option value="Shalini Didi">Shalini Didi </option>
+            <option value="Priya Didi">Priya Didi</option>
+            <option value="Priyanka Didi">Priyanka Didi</option>
+            <option value="Rimjhim">Rimjhim</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <input class="ayushkumar" type="submit" value="Submit Now">
+            <input class="aksingh" type="reset" value="Reset Now">
+        </div>
+
+    </form>
+</body>
+
+</html>
